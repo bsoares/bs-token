@@ -1,0 +1,31 @@
+{
+  "name": "bs-token",
+  "version": "1.0.0",
+  "description": "BSoares Token (ERC20)",
+  "engines": {
+    "node": ">=10.15.0",
+    "npm": ">=6.6.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "truffle": "./node_modules/truffle/build/cli.bundled.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mdx",
+    "erc20",
+    "modiax",
+    "token",
+    "coin",
+    "cryptocurrency"
+  ],
+  "author": "Bruno Soares",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.0.2"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.1.2",
+    "truffle-hdwallet-provider": "^1.0.2"
+  }
+}
